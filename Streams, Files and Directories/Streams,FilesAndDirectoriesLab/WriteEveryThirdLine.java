@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 public class WriteEveryThirdLine {
     public static void main(String[] args) throws IOException {
-        String readPath = "C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\input.txt";
+        String readPath = "input.txt";
         FileInputStream inputStream = new FileInputStream(readPath);
         Scanner scanner = new Scanner(inputStream);
-        String writePath = "C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\05.WriteEveryThirdLineOutput.txt";
+        String writePath = "WriteEveryThirdLineOutput.txt";
         FileOutputStream outputStream = new FileOutputStream(writePath);
         PrintWriter writer = new PrintWriter(outputStream);
 

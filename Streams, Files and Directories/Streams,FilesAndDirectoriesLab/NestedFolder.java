@@ -6,7 +6,7 @@ import java.util.Deque;
 
 public class NestedFolder {
     public static void main(String[] args) {
-        File folder = new File("C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\Files-and-Streams");
+        File folder = new File("Files-and-Streams");
         Deque<File> dirs = new ArrayDeque<>();
         dirs.offer(folder);
         int count = 0;

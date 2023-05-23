@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class CopyBytes {
     public static void main(String[] args) throws IOException {
-        String toReadPath = "C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\input.txt";
+        String toReadPath = "input.txt";
         FileInputStream inputStream = new FileInputStream(toReadPath);
-        String writePath = "C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\03.CopyBytesOutput.txt";
+        String writePath = ".CopyBytesOutput.txt";
         FileOutputStream outputStream = new FileOutputStream(writePath);
 
         int oneByte = inputStream.read();

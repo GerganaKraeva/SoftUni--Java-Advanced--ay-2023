@@ -5,9 +5,9 @@ import java.io.IOException;
 
 public class WriteToFile  {
     public static void main(String[] args) throws IOException {
-        String inputPath="C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\input.txt";
+        String inputPath="input.txt";
         FileInputStream inputStream=new FileInputStream(inputPath);
-        String outputPath="C:\\Users\\gerga\\IdeaProjects\\geri\\Advanced\\tasks\\StreamsFilesAndDirectoriesLab\\02.WriteToFileOutput.txt";
+        String outputPath="02.WriteToFileOutput.txt";
         FileOutputStream outputStream=new FileOutputStream(outputPath);
         int currentByte=inputStream.read();
 
