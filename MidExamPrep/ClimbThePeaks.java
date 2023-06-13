@@ -17,19 +17,9 @@ public class ClimbThePeaks {
         firstLine.forEach(e -> foodPortions.push(e));
         ArrayDeque<Integer> staminaQuantities = new ArrayDeque<>();
         secondLine.forEach(e -> staminaQuantities.offer(e));
-        List<String> mountainNames = new ArrayList<>();
-        mountainNames.add("Vihren");
-        mountainNames.add("Kutelo");
-        mountainNames.add("Banski Suhodol");
-        mountainNames.add("Polezhan");
-        mountainNames.add("Kamenitza");
-//    Arrays.asList("Vihren", "Kutelo", "Banski Suhodol", "Polezhan", "Kamenitza");
-        ArrayDeque<Integer> difficultLevel = new ArrayDeque<>();
-        difficultLevel.offer(80);
-        difficultLevel.offer(90);
-        difficultLevel.offer(100);
-        difficultLevel.offer(60);
-        difficultLevel.offer(70);
+        List<String> mountainNames = new ArrayList<>(Arrays.asList("Vihren", "Kutelo", "Banski Suhodol", "Polezhan", "Kamenitza"));
+        ArrayDeque<Integer> difficultLevel = new ArrayDeque<>(Arrays.asList(80,90,100,60,70));
+
         ArrayDeque<String> conqueredPeak = new ArrayDeque<>();
         int countDays = 0;
 
