@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bf060cc-6093-40ec-8db4-f6c5721db04a" name="Changes" comment="" />
+    <list default="true" id="411dee19-2f4c-4bc9-8dfa-33d243ae6bc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +15,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ThgiyezqRIEFQ1CKH479IRumLn" />
+  <component name="ProjectId" id="2TiH8dq8ZaZa9rBaFtUJVdDGi7F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,16 +30,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gerga/Java GitHub/SoftUni--Java-Advanced-May-2023/ExamPrep/matrix"
+    "last_opened_file_path": "C:/Users/gerga/Java GitHub/SoftUni--Java-Advanced-May-2023/ExamPrep/StacksAndQueues"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Lootbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExamPrep.StacksAndQueues.Lootbox" />
-      <module name="ExamPrep" />
+    <configuration name="Meeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamPrep.Meeting" />
+      <module name="StacksAndQueues" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamPrep.StacksAndQueues.*" />
+          <option name="PATTERN" value="ExamPrep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,18 +49,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lootbox" />
+        <item itemvalue="Application.Meeting" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2bf060cc-6093-40ec-8db4-f6c5721db04a" name="Changes" comment="" />
-      <created>1691500857791</created>
+      <changelist id="411dee19-2f4c-4bc9-8dfa-33d243ae6bc9" name="Changes" comment="" />
+      <created>1691518823027</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691500857791</updated>
+      <updated>1691518823027</updated>
     </task>
     <servers />
   </component>
@@ -74,16 +74,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/StacksAndQueues/Lootbox.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
